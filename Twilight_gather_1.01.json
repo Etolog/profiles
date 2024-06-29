@@ -5484,33 +5484,25 @@
           "Waypoints": [
             {
               "Position": {
-                "X": -3522.8154,
-                "Y": -5936.273,
-                "Z": 37.62748
+                "X": -3519.693,
+                "Y": -5936.619,
+                "Z": 37.047314
               },
               "MapID": 0
             },
             {
               "Position": {
-                "X": -3525.3533,
-                "Y": -5941.1074,
-                "Z": 38.869514
+                "X": -3522.7644,
+                "Y": -5939.966,
+                "Z": 38.110447
               },
               "MapID": 0
             },
             {
               "Position": {
-                "X": -3529.0225,
-                "Y": -5944.076,
-                "Z": 40.497448
-              },
-              "MapID": 0
-            },
-            {
-              "Position": {
-                "X": -3528.2827,
-                "Y": -5950.502,
-                "Z": 44.71457
+                "X": -3526.176,
+                "Y": -5944.42,
+                "Z": 39.353603
               },
               "MapID": 0
             }
@@ -5523,6 +5515,32 @@
           "CloseEnoughDistance": 4,
           "TaskId": "Transport",
           "Name": "transport",
+          "IsCritical": false,
+          "Priority": 31,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "UsePathfinding": true,
+          "Waypoints": [
+            {
+              "Position": {
+                "X": -3526.7751,
+                "Y": -5945.2285,
+                "Z": 39.944557
+              },
+              "MapID": 0
+            }
+          ],
+          "CanUseTaxi": false,
+          "CanUseMount": false,
+          "CanUseFlyingMount": false,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "Transport",
+          "Name": "tras2",
           "IsCritical": false,
           "Priority": 21,
           "Enabled": true,
