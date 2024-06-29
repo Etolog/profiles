@@ -5478,6 +5478,56 @@
           "Enabled": true,
           "IgnoreCombat": false,
           "IgnoreCombatIfMounted": true
+        },
+        {
+          "UsePathfinding": true,
+          "Waypoints": [
+            {
+              "Position": {
+                "X": -3522.8154,
+                "Y": -5936.273,
+                "Z": 37.62748
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3525.3533,
+                "Y": -5941.1074,
+                "Z": 38.869514
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3529.0225,
+                "Y": -5944.076,
+                "Z": 40.497448
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3528.2827,
+                "Y": -5950.502,
+                "Z": 44.71457
+              },
+              "MapID": 0
+            }
+          ],
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "Transport",
+          "Name": "transport",
+          "IsCritical": false,
+          "Priority": 21,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
         }
       ]
     },
@@ -5486,33 +5536,6 @@
       "Priority": 0,
       "RunCondition": 2,
       "Tasks": [
-        {
-          "KeepAmount": 0,
-          "MaxSend": 20000,
-          "MinSend": 0,
-          "ListContainsMustKeepItems": false,
-          "MailGrey": false,
-          "MailWhite": true,
-          "MailGreen": true,
-          "MailBlue": true,
-          "MailPurple": true,
-          "MailTradeGoodItems": true,
-          "MailRecipies": true,
-          "Items": [],
-          "CanUseTaxi": false,
-          "CanUseMount": false,
-          "CanUseFlyingMount": false,
-          "AvoidEnemies": false,
-          "ForceUsingFlyingMount": false,
-          "CloseEnoughDistance": 4,
-          "TaskId": "SendMail",
-          "Name": "mail",
-          "IsCritical": false,
-          "Priority": 40,
-          "Enabled": true,
-          "IgnoreCombat": false,
-          "IgnoreCombatIfMounted": true
-        },
         {
           "VendorId": 49592,
           "SellTradeGoods": false,
@@ -5533,7 +5556,7 @@
           "TaskId": "SellItems",
           "Name": "sell",
           "IsCritical": false,
-          "Priority": 50,
+          "Priority": 70,
           "Enabled": true,
           "IgnoreCombat": false,
           "IgnoreCombatIfMounted": true
@@ -5575,6 +5598,75 @@
           "TaskId": "Transport",
           "Name": "transport",
           "IsCritical": false,
+          "Priority": 80,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "KeepAmount": 0,
+          "MaxSend": 20,
+          "MinSend": 0,
+          "ListContainsMustKeepItems": true,
+          "MailGrey": false,
+          "MailWhite": true,
+          "MailGreen": true,
+          "MailBlue": true,
+          "MailPurple": true,
+          "MailTradeGoodItems": true,
+          "MailRecipies": true,
+          "Items": [],
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "SendMail",
+          "Name": "mail",
+          "IsCritical": false,
+          "Priority": 50,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "UsePathfinding": true,
+          "Waypoints": [
+            {
+              "Position": {
+                "X": -3177.5293,
+                "Y": -5022.5376,
+                "Z": 121.22233
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3192.0188,
+                "Y": -5025.8047,
+                "Z": 120.37476
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3199.5505,
+                "Y": -5031.712,
+                "Z": 119.88097
+              },
+              "MapID": 0
+            }
+          ],
+          "CanUseTaxi": false,
+          "CanUseMount": false,
+          "CanUseFlyingMount": false,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "Transport",
+          "Name": "transport",
+          "IsCritical": false,
           "Priority": 60,
           "Enabled": true,
           "IgnoreCombat": false,
@@ -5599,7 +5691,7 @@
           "TaskId": "RepairAllItems",
           "Name": "repair",
           "IsCritical": false,
-          "Priority": 1,
+          "Priority": 11,
           "Enabled": true,
           "IgnoreCombat": false,
           "IgnoreCombatIfMounted": true
@@ -5641,7 +5733,49 @@
           "TaskId": "Transport",
           "Name": "transport",
           "IsCritical": false,
-          "Priority": 11,
+          "Priority": 21,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "UsePathfinding": true,
+          "Waypoints": [
+            {
+              "Position": {
+                "X": -3178.0776,
+                "Y": -5022.495,
+                "Z": 121.222534
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3190.7893,
+                "Y": -5025.5303,
+                "Z": 120.43506
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3200.5962,
+                "Y": -5032.236,
+                "Z": 119.7996
+              },
+              "MapID": 0
+            }
+          ],
+          "CanUseTaxi": false,
+          "CanUseMount": false,
+          "CanUseFlyingMount": false,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "Transport",
+          "Name": "transport",
+          "IsCritical": false,
+          "Priority": 1,
           "Enabled": true,
           "IgnoreCombat": false,
           "IgnoreCombatIfMounted": true

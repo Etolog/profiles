@@ -283,7 +283,7 @@
           "TaskId": "SellItems",
           "Name": "sell",
           "IsCritical": false,
-          "Priority": 40,
+          "Priority": 50,
           "Enabled": true,
           "IgnoreCombat": false,
           "IgnoreCombatIfMounted": true
@@ -300,7 +300,7 @@
           "TaskId": "RepairAllItems",
           "Name": "repair",
           "IsCritical": false,
-          "Priority": 50,
+          "Priority": 60,
           "Enabled": true,
           "IgnoreCombat": false,
           "IgnoreCombatIfMounted": true
@@ -342,7 +342,49 @@
           "TaskId": "Transport",
           "Name": "transport",
           "IsCritical": false,
-          "Priority": 60,
+          "Priority": 70,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "UsePathfinding": true,
+          "Waypoints": [
+            {
+              "Position": {
+                "X": -3177.4163,
+                "Y": -5021.682,
+                "Z": 121.2294
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3189.1487,
+                "Y": -5024.601,
+                "Z": 120.48437
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3199.343,
+                "Y": -5031.641,
+                "Z": 119.905365
+              },
+              "MapID": 0
+            }
+          ],
+          "CanUseTaxi": false,
+          "CanUseMount": false,
+          "CanUseFlyingMount": false,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "Transport",
+          "Name": "transport",
+          "IsCritical": false,
+          "Priority": 40,
           "Enabled": true,
           "IgnoreCombat": false,
           "IgnoreCombatIfMounted": true
@@ -374,7 +416,7 @@
           "TaskId": "SellItems",
           "Name": "sell to vender",
           "IsCritical": false,
-          "Priority": 1,
+          "Priority": 11,
           "Enabled": true,
           "IgnoreCombat": false,
           "IgnoreCombatIfMounted": true
@@ -416,7 +458,49 @@
           "TaskId": "Transport",
           "Name": "transport",
           "IsCritical": false,
-          "Priority": 11,
+          "Priority": 21,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "UsePathfinding": true,
+          "Waypoints": [
+            {
+              "Position": {
+                "X": -3177.855,
+                "Y": -5021.9805,
+                "Z": 121.22702
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3193.017,
+                "Y": -5025.7886,
+                "Z": 120.27334
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3198.805,
+                "Y": -5032.1846,
+                "Z": 119.99052
+              },
+              "MapID": 0
+            }
+          ],
+          "CanUseTaxi": false,
+          "CanUseMount": false,
+          "CanUseFlyingMount": false,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "Transport",
+          "Name": "transport",
+          "IsCritical": false,
+          "Priority": 1,
           "Enabled": true,
           "IgnoreCombat": false,
           "IgnoreCombatIfMounted": true
@@ -440,7 +524,7 @@
           "TaskId": "RepairAllItems",
           "Name": "repair",
           "IsCritical": false,
-          "Priority": 1,
+          "Priority": 11,
           "Enabled": true,
           "IgnoreCombat": false,
           "IgnoreCombatIfMounted": true
@@ -482,7 +566,49 @@
           "TaskId": "Transport",
           "Name": "transport",
           "IsCritical": false,
-          "Priority": 11,
+          "Priority": 21,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "UsePathfinding": true,
+          "Waypoints": [
+            {
+              "Position": {
+                "X": -3177.7183,
+                "Y": -5021.391,
+                "Z": 121.23196
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3192.5232,
+                "Y": -5025.1196,
+                "Z": 120.312744
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3200.0593,
+                "Y": -5033.197,
+                "Z": 119.86258
+              },
+              "MapID": 0
+            }
+          ],
+          "CanUseTaxi": false,
+          "CanUseMount": false,
+          "CanUseFlyingMount": false,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "Transport",
+          "Name": "transport",
+          "IsCritical": false,
+          "Priority": 1,
           "Enabled": true,
           "IgnoreCombat": false,
           "IgnoreCombatIfMounted": true
