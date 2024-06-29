@@ -1,0 +1,271 @@
+{
+  "Version": "1.0",
+  "BotbaseName": "SimpleBot",
+  "Name": "Hyjal_grind_spot1",
+  "Author": "Valek",
+  "Duration": "00:13:00",
+  "StopIfKilledMoreThan": 10,
+  "StopIfKilledByPlayerMoreThan": 3,
+  "LootOptions": {
+    "LootMode": 1
+  },
+  "TaskGroups": [
+    {
+      "Name": "Main Group",
+      "Priority": 0,
+      "RunCondition": 0,
+      "Tasks": [
+        {
+          "RepeatCount": 100000,
+          "HotSpots": [
+            {
+              "Position": {
+                "X": 5128.7485,
+                "Y": -2020.7432,
+                "Z": 1365.8208
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 5108.58,
+                "Y": -2049.4272,
+                "Z": 1366.3403
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 5069.89,
+                "Y": -2073.1199,
+                "Z": 1369.5505
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 5042.183,
+                "Y": -2050.4246,
+                "Z": 1367.4362
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 5046.115,
+                "Y": -2094.0068,
+                "Z": 1370.1598
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 5062.5366,
+                "Y": -2121.024,
+                "Z": 1374.4309
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 5076.159,
+                "Y": -2180.7737,
+                "Z": 1384.4805
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 5078.4697,
+                "Y": -2238.3835,
+                "Z": 1391.0106
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 5073.874,
+                "Y": -2274.1821,
+                "Z": 1398.6498
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 5084.8213,
+                "Y": -2318.0051,
+                "Z": 1406.1978
+              },
+              "MapID": 1
+            }
+          ],
+          "SafeSpots": [
+            {
+              "Position": {
+                "X": 5044.285,
+                "Y": -2488.411,
+                "Z": 1432.6167
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 5139.8613,
+                "Y": -1897.7245,
+                "Z": 1364.1271
+              },
+              "MapID": 1
+            }
+          ],
+          "MobNames": [],
+          "KillAllMobs": true,
+          "MinMobLevel": 1,
+          "MaxMobLevel": 85,
+          "MinPlayerLevel": 1,
+          "MaxPlayerLevel": 85,
+          "MinHealthPercent": 40,
+          "MinPowerPercent": 30,
+          "WaitTime": "00:00:00",
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "Grinding",
+          "Name": "grind",
+          "IsCritical": false,
+          "Priority": 1,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": false
+        },
+        {
+          "VendorId": 43381,
+          "RestockQuantity": 20,
+          "BuyQuantity": 60,
+          "Items": [
+            58260
+          ],
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "BuyItems",
+          "Name": "buy",
+          "IsCritical": false,
+          "Priority": 11,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        }
+      ]
+    },
+    {
+      "Name": "Full-Bags Group",
+      "Priority": 0,
+      "RunCondition": 2,
+      "Tasks": [
+        {
+          "VendorId": 43410,
+          "SellTradeGoods": false,
+          "SellBoEItems": false,
+          "SellRecipies": false,
+          "SellGems": false,
+          "SellAllWhiteGear": true,
+          "SellAllGreenGear": true,
+          "SellAllBlueGear": false,
+          "KeepAmount": 0,
+          "Items": [],
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "SellItems",
+          "Name": "sell",
+          "IsCritical": false,
+          "Priority": 11,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "VendorId": 43410,
+          "DurabilityPercentThreshold": 43,
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": true,
+          "CloseEnoughDistance": 4,
+          "TaskId": "RepairAllItems",
+          "Name": "repair",
+          "IsCritical": false,
+          "Priority": 21,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        }
+      ]
+    },
+    {
+      "Name": "Red-Gear Group",
+      "Priority": 0,
+      "RunCondition": 1,
+      "Tasks": [
+        {
+          "VendorId": 43410,
+          "DurabilityPercentThreshold": 54,
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": true,
+          "CloseEnoughDistance": 4,
+          "TaskId": "RepairAllItems",
+          "Name": "repair",
+          "IsCritical": false,
+          "Priority": 21,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "VendorId": 43410,
+          "SellTradeGoods": false,
+          "SellBoEItems": false,
+          "SellRecipies": false,
+          "SellGems": false,
+          "SellAllWhiteGear": true,
+          "SellAllGreenGear": true,
+          "SellAllBlueGear": false,
+          "KeepAmount": 0,
+          "Items": [],
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "SellItems",
+          "Name": "sell",
+          "IsCritical": false,
+          "Priority": 11,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        }
+      ]
+    },
+    {
+      "Name": "At-End Group",
+      "Priority": 0,
+      "RunCondition": 3
+    }
+  ],
+  "OnFullBagBehavior": 0
+}

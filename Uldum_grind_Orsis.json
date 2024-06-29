@@ -1,0 +1,316 @@
+{
+  "Version": "1.0",
+  "BotbaseName": "SimpleBot",
+  "Name": "Uldum_grind_Orsis",
+  "Author": "Valek",
+  "Duration": "00:12:00",
+  "StopIfKilledMoreThan": 10,
+  "StopIfKilledByPlayerMoreThan": 3,
+  "LootOptions": {
+    "LootMode": 1
+  },
+  "TaskGroups": [
+    {
+      "Name": "Main Group",
+      "Priority": 0,
+      "RunCondition": 0,
+      "Tasks": [
+        {
+          "VendorId": 48617,
+          "DurabilityPercentThreshold": 50,
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": true,
+          "CloseEnoughDistance": 4,
+          "TaskId": "RepairAllItems",
+          "Name": "repair",
+          "IsCritical": false,
+          "Priority": 51,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "VendorId": 48617,
+          "SellTradeGoods": false,
+          "SellBoEItems": false,
+          "SellRecipies": false,
+          "SellGems": false,
+          "SellAllWhiteGear": true,
+          "SellAllGreenGear": true,
+          "SellAllBlueGear": false,
+          "KeepAmount": 0,
+          "Items": [],
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "SellItems",
+          "Name": "sell",
+          "IsCritical": false,
+          "Priority": 41,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "VendorId": 48886,
+          "RestockQuantity": 20,
+          "BuyQuantity": 60,
+          "Items": [
+            58260
+          ],
+          "CanUseTaxi": false,
+          "CanUseMount": false,
+          "CanUseFlyingMount": false,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "BuyItems",
+          "Name": "buy",
+          "IsCritical": false,
+          "Priority": 31,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "KeepAmount": 0,
+          "MaxSend": 10000,
+          "MinSend": 0,
+          "ListContainsMustKeepItems": false,
+          "MailGrey": false,
+          "MailWhite": true,
+          "MailGreen": true,
+          "MailBlue": true,
+          "MailPurple": true,
+          "MailTradeGoodItems": true,
+          "MailRecipies": true,
+          "Items": [],
+          "CanUseTaxi": false,
+          "CanUseMount": false,
+          "CanUseFlyingMount": false,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "SendMail",
+          "Name": "mail",
+          "IsCritical": false,
+          "Priority": 21,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "RepeatCount": 1000,
+          "HotSpots": [
+            {
+              "Position": {
+                "X": -9631.395,
+                "Y": -174.09283,
+                "Z": 97.93925
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": -9600.884,
+                "Y": -109.42981,
+                "Z": 97.19747
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": -9692.878,
+                "Y": -132.28804,
+                "Z": 83.53219
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": -9802.794,
+                "Y": -74.879654,
+                "Z": 67.55025
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": -9862.236,
+                "Y": -31.38475,
+                "Z": 56.554417
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": -9823.324,
+                "Y": 35.682667,
+                "Z": 65.7663
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": -9790.753,
+                "Y": 67.28849,
+                "Z": 68.91455
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": -9755.216,
+                "Y": -2.6239924,
+                "Z": 80.17033
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": -9643.57,
+                "Y": -22.633575,
+                "Z": 94.45887
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": -9600.799,
+                "Y": -98.53626,
+                "Z": 94.90052
+              },
+              "MapID": 1
+            }
+          ],
+          "SafeSpots": [
+            {
+              "Position": {
+                "X": -9678.593,
+                "Y": -257.85757,
+                "Z": 92.132195
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": -9783.983,
+                "Y": -174.71205,
+                "Z": 95.57247
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": -9920.203,
+                "Y": 77.4177,
+                "Z": 68.77415
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": -9555.172,
+                "Y": 0.85259414,
+                "Z": 114.26601
+              },
+              "MapID": 1
+            }
+          ],
+          "MobNames": [
+            "Scion of Al\u0027Akir"
+          ],
+          "KillAllMobs": false,
+          "MinMobLevel": 1,
+          "MaxMobLevel": 85,
+          "MinPlayerLevel": 1,
+          "MaxPlayerLevel": 85,
+          "MinHealthPercent": 40,
+          "MinPowerPercent": 30,
+          "WaitTime": "00:00:00",
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "Grinding",
+          "Name": "grindOrsis",
+          "IsCritical": false,
+          "Priority": 5,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": false
+        }
+      ]
+    },
+    {
+      "Name": "Full-Bags Group",
+      "Priority": 0,
+      "RunCondition": 2,
+      "Tasks": [
+        {
+          "VendorId": 48617,
+          "SellTradeGoods": false,
+          "SellBoEItems": false,
+          "SellRecipies": false,
+          "SellGems": false,
+          "SellAllWhiteGear": true,
+          "SellAllGreenGear": true,
+          "SellAllBlueGear": false,
+          "KeepAmount": 0,
+          "Items": [],
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "SellItems",
+          "Name": "Sell",
+          "IsCritical": false,
+          "Priority": 1,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        }
+      ]
+    },
+    {
+      "Name": "Red-Gear Group",
+      "Priority": 0,
+      "RunCondition": 1,
+      "Tasks": [
+        {
+          "VendorId": 48617,
+          "DurabilityPercentThreshold": 48,
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": true,
+          "CloseEnoughDistance": 4,
+          "TaskId": "RepairAllItems",
+          "Name": "Repair",
+          "IsCritical": false,
+          "Priority": 1,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        }
+      ]
+    },
+    {
+      "Name": "At-End Group",
+      "Priority": 0,
+      "RunCondition": 3
+    }
+  ],
+  "OnFullBagBehavior": 0
+}

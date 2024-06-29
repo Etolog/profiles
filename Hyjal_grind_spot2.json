@@ -1,0 +1,359 @@
+{
+  "Version": "1.0",
+  "BotbaseName": "SimpleBot",
+  "Name": "Hyjal_grind_spot2",
+  "Author": "Valek",
+  "Duration": "00:15:00",
+  "StopIfKilledMoreThan": 10,
+  "StopIfKilledByPlayerMoreThan": 3,
+  "LootOptions": {
+    "LootMode": 1
+  },
+  "TaskGroups": [
+    {
+      "Name": "Main Group",
+      "Priority": 0,
+      "RunCondition": 0,
+      "Tasks": [
+        {
+          "RepeatCount": 100000,
+          "HotSpots": [
+            {
+              "Position": {
+                "X": 4727.6543,
+                "Y": -2148.8535,
+                "Z": 1204.9579
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4726.4,
+                "Y": -2072.2063,
+                "Z": 1223.1105
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4715.448,
+                "Y": -2189.4177,
+                "Z": 1193.7023
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4735.752,
+                "Y": -2261.5056,
+                "Z": 1187.8921
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4708.071,
+                "Y": -2309.5903,
+                "Z": 1177.9487
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4682.3403,
+                "Y": -2371.3428,
+                "Z": 1164.6211
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4691.352,
+                "Y": -2427.7847,
+                "Z": 1157.7241
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4721.3516,
+                "Y": -2481.3318,
+                "Z": 1155.4742
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4687.2725,
+                "Y": -2519.8857,
+                "Z": 1146.7333
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4674.973,
+                "Y": -2563.7886,
+                "Z": 1146.5902
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4667.1006,
+                "Y": -2613.7542,
+                "Z": 1144.9248
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4650.2676,
+                "Y": -2666.5808,
+                "Z": 1145.7789
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4595.588,
+                "Y": -2676.8696,
+                "Z": 1135.2646
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4509.989,
+                "Y": -2653.984,
+                "Z": 1099.3303
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4467.2256,
+                "Y": -2700.9016,
+                "Z": 1101.043
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4428.706,
+                "Y": -2667.9717,
+                "Z": 1104.777
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4400.125,
+                "Y": -2608.1626,
+                "Z": 1119.6389
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4408.4277,
+                "Y": -2561.931,
+                "Z": 1119.9019
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4462.4995,
+                "Y": -2523.0564,
+                "Z": 1127.3053
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4509.017,
+                "Y": -2498.2307,
+                "Z": 1132.8734
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4547.1714,
+                "Y": -2468.614,
+                "Z": 1133.601
+              },
+              "MapID": 1
+            }
+          ],
+          "SafeSpots": [
+            {
+              "Position": {
+                "X": 4649.7393,
+                "Y": -2076.5627,
+                "Z": 1231.9124
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": 4458.904,
+                "Y": -2793.1636,
+                "Z": 1091.8259
+              },
+              "MapID": 1
+            }
+          ],
+          "MobNames": [],
+          "KillAllMobs": true,
+          "MinMobLevel": 1,
+          "MaxMobLevel": 85,
+          "MinPlayerLevel": 1,
+          "MaxPlayerLevel": 85,
+          "MinHealthPercent": 40,
+          "MinPowerPercent": 30,
+          "WaitTime": "00:00:00",
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "Grinding",
+          "Name": "grind",
+          "IsCritical": false,
+          "Priority": 1,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": false
+        },
+        {
+          "VendorId": 43381,
+          "RestockQuantity": 20,
+          "BuyQuantity": 60,
+          "Items": [
+            58260
+          ],
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "BuyItems",
+          "Name": "buy",
+          "IsCritical": false,
+          "Priority": 11,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        }
+      ]
+    },
+    {
+      "Name": "Full-Bags Group",
+      "Priority": 0,
+      "RunCondition": 2,
+      "Tasks": [
+        {
+          "VendorId": 43410,
+          "SellTradeGoods": false,
+          "SellBoEItems": false,
+          "SellRecipies": false,
+          "SellGems": false,
+          "SellAllWhiteGear": true,
+          "SellAllGreenGear": true,
+          "SellAllBlueGear": false,
+          "KeepAmount": 0,
+          "Items": [],
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "SellItems",
+          "Name": "sell",
+          "IsCritical": false,
+          "Priority": 21,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "VendorId": 43410,
+          "DurabilityPercentThreshold": 50,
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": true,
+          "CloseEnoughDistance": 4,
+          "TaskId": "RepairAllItems",
+          "Name": "repair",
+          "IsCritical": false,
+          "Priority": 11,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        }
+      ]
+    },
+    {
+      "Name": "Red-Gear Group",
+      "Priority": 0,
+      "RunCondition": 1,
+      "Tasks": [
+        {
+          "VendorId": 43410,
+          "DurabilityPercentThreshold": 54,
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": true,
+          "CloseEnoughDistance": 4,
+          "TaskId": "RepairAllItems",
+          "Name": "repair",
+          "IsCritical": false,
+          "Priority": 21,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "VendorId": 43410,
+          "SellTradeGoods": false,
+          "SellBoEItems": false,
+          "SellRecipies": false,
+          "SellGems": false,
+          "SellAllWhiteGear": true,
+          "SellAllGreenGear": true,
+          "SellAllBlueGear": false,
+          "KeepAmount": 0,
+          "Items": [],
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "SellItems",
+          "Name": "sell",
+          "IsCritical": false,
+          "Priority": 11,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        }
+      ]
+    },
+    {
+      "Name": "At-End Group",
+      "Priority": 0,
+      "RunCondition": 3
+    }
+  ],
+  "OnFullBagBehavior": 0
+}

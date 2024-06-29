@@ -1,0 +1,313 @@
+{
+  "Version": "1.0",
+  "BotbaseName": "SimpleBot",
+  "Name": "Twilight_grind",
+  "Author": "Valek",
+  "Description": "Thundermar",
+  "Duration": "00:15:00",
+  "StopIfKilledMoreThan": 10,
+  "StopIfKilledByPlayerMoreThan": 3,
+  "LootOptions": {
+    "LootMode": 1
+  },
+  "TaskGroups": [
+    {
+      "Name": "Main Group",
+      "Priority": 0,
+      "RunCondition": 0,
+      "Tasks": [
+        {
+          "RepeatCount": 50000,
+          "HotSpots": [
+            {
+              "Position": {
+                "X": -3046.9414,
+                "Y": -4703.6147,
+                "Z": 136.08664
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3039.433,
+                "Y": -4745.695,
+                "Z": 139.44362
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -2981.4614,
+                "Y": -4744.4893,
+                "Z": 148.86717
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -2934.3596,
+                "Y": -4726.1694,
+                "Z": 151.22148
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -2908.3125,
+                "Y": -4695.431,
+                "Z": 149.4073
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -2903.012,
+                "Y": -4634.0557,
+                "Z": 142.66873
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -2914.802,
+                "Y": -4581.5693,
+                "Z": 146.58028
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -2947.3413,
+                "Y": -4553.566,
+                "Z": 138.91345
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -2967.777,
+                "Y": -4578.2744,
+                "Z": 139.71649
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -2990.141,
+                "Y": -4612.966,
+                "Z": 146.49028
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3033.415,
+                "Y": -4655.9443,
+                "Z": 144.17891
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -2997.9841,
+                "Y": -4711.021,
+                "Z": 138.3686
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -2964.0498,
+                "Y": -4659.2935,
+                "Z": 136.41231
+              },
+              "MapID": 0
+            }
+          ],
+          "SafeSpots": [
+            {
+              "Position": {
+                "X": -2950.5715,
+                "Y": -4830.8525,
+                "Z": 146.27449
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3088.5935,
+                "Y": -4786.8,
+                "Z": 136.62856
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -2917.6924,
+                "Y": -4441.9937,
+                "Z": 182.27553
+              },
+              "MapID": 0
+            }
+          ],
+          "MobNames": [
+            "Unbound Emberfiend"
+          ],
+          "KillAllMobs": false,
+          "MinMobLevel": 1,
+          "MaxMobLevel": 85,
+          "MinPlayerLevel": 1,
+          "MaxPlayerLevel": 85,
+          "MinHealthPercent": 40,
+          "MinPowerPercent": 30,
+          "WaitTime": "00:00:00",
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "Grinding",
+          "Name": "grind",
+          "IsCritical": false,
+          "Priority": 10,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": false
+        },
+        {
+          "VendorId": 50460,
+          "DurabilityPercentThreshold": 47,
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": true,
+          "CloseEnoughDistance": 4,
+          "TaskId": "RepairAllItems",
+          "Name": "repair",
+          "IsCritical": false,
+          "Priority": 52,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "VendorId": 50460,
+          "SellTradeGoods": false,
+          "SellBoEItems": false,
+          "SellRecipies": false,
+          "SellGems": false,
+          "SellAllWhiteGear": true,
+          "SellAllGreenGear": true,
+          "SellAllBlueGear": false,
+          "KeepAmount": 0,
+          "Items": [],
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "SellItems",
+          "Name": "sell",
+          "IsCritical": false,
+          "Priority": 42,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "KeepAmount": 0,
+          "MaxSend": 1000,
+          "MinSend": 0,
+          "ListContainsMustKeepItems": false,
+          "MailGrey": false,
+          "MailWhite": true,
+          "MailGreen": true,
+          "MailBlue": true,
+          "MailPurple": true,
+          "MailTradeGoodItems": true,
+          "MailRecipies": true,
+          "Items": [],
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "SendMail",
+          "Name": "mail",
+          "IsCritical": true,
+          "Priority": 32,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        }
+      ]
+    },
+    {
+      "Name": "Full-Bags Group",
+      "Priority": 0,
+      "RunCondition": 2,
+      "Tasks": [
+        {
+          "VendorId": 50460,
+          "SellTradeGoods": false,
+          "SellBoEItems": false,
+          "SellRecipies": false,
+          "SellGems": false,
+          "SellAllWhiteGear": true,
+          "SellAllGreenGear": true,
+          "SellAllBlueGear": false,
+          "KeepAmount": 0,
+          "Items": [],
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "SellItems",
+          "Name": "sell",
+          "IsCritical": false,
+          "Priority": 1,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        }
+      ]
+    },
+    {
+      "Name": "Red-Gear Group",
+      "Priority": 0,
+      "RunCondition": 1,
+      "Tasks": [
+        {
+          "VendorId": 50460,
+          "DurabilityPercentThreshold": 45,
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": true,
+          "CloseEnoughDistance": 4,
+          "TaskId": "RepairAllItems",
+          "Name": "repair",
+          "IsCritical": false,
+          "Priority": 1,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        }
+      ]
+    },
+    {
+      "Name": "At-End Group",
+      "Priority": 0,
+      "RunCondition": 3,
+      "Tasks": []
+    }
+  ],
+  "OnFullBagBehavior": 0
+}
