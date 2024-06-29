@@ -17,7 +17,7 @@
       "RunCondition": 0,
       "Tasks": [
         {
-          "RepeatCount": 5000,
+          "RepeatCount": 5001,
           "MapID": 0,
           "RecordedPath": [
             {
