@@ -4,8 +4,8 @@
   "Name": "Uldum_gather",
   "Author": "Valek",
   "Duration": "01:00:00",
-  "StopIfKilledMoreThan": 10,
-  "StopIfKilledByPlayerMoreThan": 3,
+  "StopIfKilledMoreThan": 3,
+  "StopIfKilledByPlayerMoreThan": 1,
   "LootOptions": {
     "LootMode": 1
   },
@@ -20,35 +20,25 @@
           "Waypoints": [
             {
               "Position": {
-                "X": -8609.379,
-                "Y": -1006.5543,
-                "Z": 227.84688
+                "X": -8591.516,
+                "Y": -1001.7431,
+                "Z": 233.25185
               },
               "MapID": 1
-            }
-          ],
-          "CanUseTaxi": false,
-          "CanUseMount": true,
-          "CanUseFlyingMount": true,
-          "AvoidEnemies": false,
-          "ForceUsingFlyingMount": false,
-          "CloseEnoughDistance": 4,
-          "TaskId": "Transport",
-          "Name": "to spot1",
-          "IsCritical": false,
-          "Priority": 1,
-          "Enabled": true,
-          "IgnoreCombat": false,
-          "IgnoreCombatIfMounted": true
-        },
-        {
-          "UsePathfinding": true,
-          "Waypoints": [
+            },
             {
               "Position": {
-                "X": -8609.379,
-                "Y": -1006.5543,
-                "Z": 227.84688
+                "X": -8600.463,
+                "Y": -1002.8451,
+                "Z": 230.5359
+              },
+              "MapID": 1
+            },
+            {
+              "Position": {
+                "X": -8607.071,
+                "Y": -1003.5951,
+                "Z": 228.66779
               },
               "MapID": 1
             }
@@ -14888,33 +14878,6 @@
           "Name": "sell",
           "IsCritical": false,
           "Priority": 11,
-          "Enabled": true,
-          "IgnoreCombat": false,
-          "IgnoreCombatIfMounted": true
-        },
-        {
-          "KeepAmount": 0,
-          "MaxSend": 10000,
-          "MinSend": 0,
-          "ListContainsMustKeepItems": false,
-          "MailGrey": false,
-          "MailWhite": true,
-          "MailGreen": true,
-          "MailBlue": true,
-          "MailPurple": true,
-          "MailTradeGoodItems": true,
-          "MailRecipies": true,
-          "Items": [],
-          "CanUseTaxi": false,
-          "CanUseMount": true,
-          "CanUseFlyingMount": true,
-          "AvoidEnemies": false,
-          "ForceUsingFlyingMount": false,
-          "CloseEnoughDistance": 4,
-          "TaskId": "SendMail",
-          "Name": "mail",
-          "IsCritical": false,
-          "Priority": 1,
           "Enabled": true,
           "IgnoreCombat": false,
           "IgnoreCombatIfMounted": true

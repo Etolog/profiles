@@ -4,8 +4,8 @@
   "Name": "Hyjal_gather",
   "Author": "Valek",
   "Duration": "01:00:00",
-  "StopIfKilledMoreThan": 10,
-  "StopIfKilledByPlayerMoreThan": 3,
+  "StopIfKilledMoreThan": 3,
+  "StopIfKilledByPlayerMoreThan": 1,
   "LootOptions": {
     "LootMode": 1
   },

@@ -4,11 +4,83 @@
   "Name": "Uldum_grind_Cloth",
   "Author": "Valek",
   "Duration": "00:14:30",
-  "StopIfKilledMoreThan": 10,
-  "StopIfKilledByPlayerMoreThan": 3,
+  "StopIfKilledMoreThan": 3,
+  "StopIfKilledByPlayerMoreThan": 1,
   "LootOptions": {
     "LootMode": 1
   },
+  "BlackSpots": [
+    {
+      "Position": {
+        "X": -10517.296,
+        "Y": -1169.8536,
+        "Z": 46.353127
+      },
+      "MapID": 1,
+      "Radius": 5,
+      "Faction": 3
+    },
+    {
+      "Position": {
+        "X": -10529.958,
+        "Y": -1165.2345,
+        "Z": 46.508736
+      },
+      "MapID": 1,
+      "Radius": 5,
+      "Faction": 3
+    },
+    {
+      "Position": {
+        "X": -10528.238,
+        "Y": -1145.6527,
+        "Z": 47.716316
+      },
+      "MapID": 1,
+      "Radius": 5,
+      "Faction": 3
+    },
+    {
+      "Position": {
+        "X": -10518.459,
+        "Y": -1141.0613,
+        "Z": 46.432644
+      },
+      "MapID": 1,
+      "Radius": 5,
+      "Faction": 3
+    },
+    {
+      "Position": {
+        "X": -10536.91,
+        "Y": -1142.2482,
+        "Z": 46.443672
+      },
+      "MapID": 1,
+      "Radius": 5,
+      "Faction": 3
+    },
+    {
+      "Position": {
+        "X": -10536.522,
+        "Y": -1131.0511,
+        "Z": 46.682713
+      },
+      "MapID": 1,
+      "Radius": 5,
+      "Faction": 3
+    },
+    {
+      "Position": {
+        "X": -10523.92,
+        "Y": -1184.3156,
+        "Z": 46.615536
+      },
+      "MapID": 1,
+      "Radius": 5,
+      "Faction": 3
+    }
+  ],
   "TaskGroups": [
     {
       "Name": "Main Group",
@@ -74,33 +146,6 @@
           "Name": "buy",
           "IsCritical": false,
           "Priority": 31,
-          "Enabled": true,
-          "IgnoreCombat": false,
-          "IgnoreCombatIfMounted": true
-        },
-        {
-          "KeepAmount": 0,
-          "MaxSend": 10000,
-          "MinSend": 0,
-          "ListContainsMustKeepItems": false,
-          "MailGrey": false,
-          "MailWhite": true,
-          "MailGreen": true,
-          "MailBlue": true,
-          "MailPurple": true,
-          "MailTradeGoodItems": true,
-          "MailRecipies": true,
-          "Items": [],
-          "CanUseTaxi": false,
-          "CanUseMount": false,
-          "CanUseFlyingMount": false,
-          "AvoidEnemies": false,
-          "ForceUsingFlyingMount": false,
-          "CloseEnoughDistance": 4,
-          "TaskId": "SendMail",
-          "Name": "mail",
-          "IsCritical": false,
-          "Priority": 21,
           "Enabled": true,
           "IgnoreCombat": false,
           "IgnoreCombatIfMounted": true
@@ -202,6 +247,33 @@
           "CloseEnoughDistance": 4,
           "TaskId": "SellItems",
           "Name": "Sell",
+          "IsCritical": false,
+          "Priority": 11,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
+        },
+        {
+          "KeepAmount": 0,
+          "MaxSend": 20,
+          "MinSend": 0,
+          "ListContainsMustKeepItems": true,
+          "MailGrey": false,
+          "MailWhite": true,
+          "MailGreen": true,
+          "MailBlue": true,
+          "MailPurple": true,
+          "MailTradeGoodItems": true,
+          "MailRecipies": true,
+          "Items": [],
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "SendMail",
+          "Name": "mail",
           "IsCritical": false,
           "Priority": 1,
           "Enabled": true,

@@ -5478,6 +5478,48 @@
           "Enabled": true,
           "IgnoreCombat": false,
           "IgnoreCombatIfMounted": true
+        },
+        {
+          "UsePathfinding": true,
+          "Waypoints": [
+            {
+              "Position": {
+                "X": -3627.5896,
+                "Y": -5941.4087,
+                "Z": 19.87291
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3632.632,
+                "Y": -5938.5195,
+                "Z": 20.479984
+              },
+              "MapID": 0
+            },
+            {
+              "Position": {
+                "X": -3638.4194,
+                "Y": -5934.4697,
+                "Z": 23.549335
+              },
+              "MapID": 0
+            }
+          ],
+          "CanUseTaxi": false,
+          "CanUseMount": true,
+          "CanUseFlyingMount": true,
+          "AvoidEnemies": false,
+          "ForceUsingFlyingMount": false,
+          "CloseEnoughDistance": 4,
+          "TaskId": "Transport",
+          "Name": "transport",
+          "IsCritical": false,
+          "Priority": 21,
+          "Enabled": true,
+          "IgnoreCombat": false,
+          "IgnoreCombatIfMounted": true
         }
       ]
     },
