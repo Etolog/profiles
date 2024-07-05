@@ -9,78 +9,7 @@
   "LootOptions": {
     "LootMode": 1
   },
-  "BlackSpots": [
-    {
-      "Position": {
-        "X": -10517.296,
-        "Y": -1169.8536,
-        "Z": 46.353127
-      },
-      "MapID": 1,
-      "Radius": 5,
-      "Faction": 3
-    },
-    {
-      "Position": {
-        "X": -10529.958,
-        "Y": -1165.2345,
-        "Z": 46.508736
-      },
-      "MapID": 1,
-      "Radius": 5,
-      "Faction": 3
-    },
-    {
-      "Position": {
-        "X": -10528.238,
-        "Y": -1145.6527,
-        "Z": 47.716316
-      },
-      "MapID": 1,
-      "Radius": 5,
-      "Faction": 3
-    },
-    {
-      "Position": {
-        "X": -10518.459,
-        "Y": -1141.0613,
-        "Z": 46.432644
-      },
-      "MapID": 1,
-      "Radius": 5,
-      "Faction": 3
-    },
-    {
-      "Position": {
-        "X": -10536.91,
-        "Y": -1142.2482,
-        "Z": 46.443672
-      },
-      "MapID": 1,
-      "Radius": 5,
-      "Faction": 3
-    },
-    {
-      "Position": {
-        "X": -10536.522,
-        "Y": -1131.0511,
-        "Z": 46.682713
-      },
-      "MapID": 1,
-      "Radius": 5,
-      "Faction": 3
-    },
-    {
-      "Position": {
-        "X": -10523.92,
-        "Y": -1184.3156,
-        "Z": 46.615536
-      },
-      "MapID": 1,
-      "Radius": 5,
-      "Faction": 3
-    }
-  ],
+  "BlackSpots": [],
   "TaskGroups": [
     {
       "Name": "Main Group",
