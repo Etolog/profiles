@@ -190,10 +190,8 @@
               "MapID": 0
             }
           ],
-          "MobNames": [
-            "Muddied Water Elemental"
-          ],
-          "KillAllMobs": false,
+          "MobNames": [],
+          "KillAllMobs": true,
           "MinMobLevel": 1,
           "MaxMobLevel": 85,
           "MinPlayerLevel": 1,
@@ -300,6 +298,7 @@
           "MailBlue": true,
           "MailPurple": true,
           "MailTradeGoodItems": true,
+          "MailGems": true,
           "MailRecipies": true,
           "Items": [],
           "CanUseTaxi": false,
